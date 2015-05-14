@@ -1,0 +1,28 @@
+$font-stack: 'Roboto', sans-serif;
+
+body {
+  background-color: #39474E;
+}
+
+.home-search {
+  text-align: center;
+}
+
+.home-header {
+  color: #fafafa;
+  font-family: $font-stack;
+  font-weight: 200;
+}
+
+.search-input {
+   color: #607078;
+   font-size: 13px;
+   width: 250px;
+   padding-left: 15px;
+   height: 30px;
+   border-radius: 15px;
+   border: 1px solid #808384;
+   border-right: 1px solid #dce5e8;
+   background: rgba(245,245,245,1);
+   outline: none;
+}
