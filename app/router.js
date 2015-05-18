@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 export default Router.map(function() {
-  this.route('home', {path: '/'});
-
+  this.route('home', {path: '/'}, function() {});
+  this.route('login');
+  this.route('register');
+  this.route('account');
+  this.route('wiki', {path: '/wiki/:wiki_id'});
+  this.route('new');
 });
